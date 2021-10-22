@@ -1,0 +1,28 @@
+html{
+    background-color: peachpuff;
+}
+
+
+h1{
+    color: white;
+    font-family: 'Noto Serif Display', serif;
+}
+
+body {
+    background-image: 
+    linear-gradient(rgba(247, 131, 36, 0.7), rgba(28, 41, 58, 0.2)), 
+    url(https://images.unsplash.com/photo-1594136217219-2c8a4f0ab1fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1932&q=80);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+
+footer{
+    color: whitesmoke;
+}
