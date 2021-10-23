@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Nav Bar Styling for all pages*/
+
+nav ul{
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+}
+
+nav a{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav.main-nav{
+    text-align: center;
+    font-size: 1.35em;
+    font-weight: 200;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+nav a:hover{
+    background-color: rgba(255, 255, 255, .4);
+}
+
+/*Main Page Styling*/
+
+.mainpage {
+    background-image: 
+    linear-gradient(rgba(247, 131, 36, 0.7), rgba(28, 41, 58, 0.2)), 
+    url(https://images.unsplash.com/photo-1511027643875-5cbb0439c8f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.mainpage h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+/*Settings for all pages*/
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    color: whitesmoke;
+}
+
+h2 {
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    padding: 20px;
+    font-weight: 300px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    align-items: center;
+    padding: 20px;
+    font-weight: 300;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    align-items: center;
+    padding: 20px;
+    font-weight: 100;
+}
+
+p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+}
+
+/*What is Happening Styling*/
+
+.what {
+    background-image: 
+    linear-gradient(rgba(247, 131, 36, 0.7), rgba(28, 41, 58, 0.4)), 
+    url(https://images.unsplash.com/photo-1594136217219-2c8a4f0ab1fa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1932&q=80);
+    background-repeat: no-repeat;
+    background-color: peachpuff;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+/*Why is it Happening Styling*/
+
+.why {
+    background-image: 
+    linear-gradient(rgba(247, 131, 36, 0.7), rgba(28, 41, 58, 0.4)), 
+    url(https://images.unsplash.com/photo-1624929303592-230462f729be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80);
+    background-repeat: no-repeat;
+    background-color: peachpuff;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*How do we Fix It Styling*/
+
+.how {
+    background-image: 
+    linear-gradient(rgba(247, 131, 36, 0.7), rgba(82, 150, 240, 0.4)), 
+    url(https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2940&q=80);
+    background-repeat: no-repeat;
+    background-color: peachpuff;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
